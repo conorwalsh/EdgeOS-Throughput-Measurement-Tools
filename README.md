@@ -1,5 +1,5 @@
 # EdgeOS Throughput Measurement Tools
-Python scripts for measuring throughput on a ubiquiti router (running EdgeOS).<br/>
+Python scripts for measuring throughput on Ubiquiti routers (running EdgeOS).<br/>
 NOTE: This script does not perform a speedtest, it returns the throughput of the router which is how much data is moving up or down through the router at that time.<br/>
 There are two versions of the script one that runs once (throughput.py) and one that runs until stopped (throughput_loop.py).
 
