@@ -1,14 +1,14 @@
 # EdgeOS-Throughput-Measure
 Python script for measuring the the throughput of a ubiquiti router.<br/>
 NOTE: This script does not perform a speedtest, it returns the throughput of the router which is how much data is moving up or down through the router at that time.<br/>
-There are two versions of the script one that runs once (throughput.py) and one that runs until stopped (throughput_loop.py)
+There are two versions of the script one that runs once (throughput.py) and one that runs until stopped (throughput_loop.py).
 
 # Requirements
 These scripts require the paramiko python module for ssh.<br/>
 >pip install paramiko
 
 # Setup
-The scripts require 5 values to be set at the start
+The scripts require 5 values to be set before the script can be used:
 1. Set the name of the interface you want to monitor: erinterface = "eth0 "
 2. Set the time between the 1st and 2nd measurement: sleeptime = 0
 3. Set the username of the router: user = "username"
@@ -28,7 +28,7 @@ An example of the script output can be seen below.<br/>
 
 License (MIT)
 ------
-Copyright (c) 2017 Conor Walsh 
+Copyright (c) 2018 Conor Walsh 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
