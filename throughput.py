@@ -9,7 +9,7 @@ erinterface = "eth0 "
 # Time between 1st and 2nd measurement
 sleeptime = 0
 # Router Username
-user = "admin"
+user = "username"
 # Router Password
 passw = "password"
 # Router IP
