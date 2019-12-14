@@ -11,7 +11,7 @@ sleeptime = 0
 # Router Username
 user = "admin"
 # Router Password
-passw = "walshubnt"
+passw = "password"
 # Router IP
 routerip = "192.168.1.1"
 
