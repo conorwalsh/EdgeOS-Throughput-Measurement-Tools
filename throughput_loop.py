@@ -1,4 +1,4 @@
-#!/bin/python
+#!/bin/python3
 # ER-X Throughput Measurement - Conor Walsh 2018 (Updated 2019)
 import sys
 import paramiko
